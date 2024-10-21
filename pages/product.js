@@ -27,10 +27,7 @@ export default class App extends React.Component {
         return {
             post: productJSON,
             pid: productID,
-            action: actionURL,
-            seo: productJSON.yoast_meta,
-            title: productJSON.yoast_title,
-            seo: productJSON.yoast_meta
+            action: actionURL
         }
     }
 
